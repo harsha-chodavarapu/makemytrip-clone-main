@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flightsearch.css">
+</head>
+<body>
+    <div id="flight">
+        <div class="cont">
+            <div class="cards">
+                <p>Trip Type</p>
+                <p>One Way</p>
+            </div>
+            <div class="cards">
+                <p>FROM</p>
+                <p>New Delhi,India</p>
+            </div>
+            <div class="cards">
+                <p>TO</p>
+                <p>Banglore, INDIA</p>
+            </div>
+            <div class="cards">
+                <p>DEPART</p>
+                <p>THU,FEB 16,2023</p>
+            </div>
+            <div class="cards">
+                <p>Return</p>
+                <p>SELECT</p>
+            </div>
+            <div class="cards">
+                <p>PASSENGER & CLASS</p>
+                <p>GROUP BOOKING</p>
+            </div>
+        </div>
+        <div id="low">
+            Select a fair type
+            <input type="radio" name="Trip" value="a">Regular Fares
+            <input type="radio" name="Trip" value="b">Armed Fares
+            <input type="radio" name="Trip" value="c">Student Fares
+            <input type="radio" name="Trip" value="c">Senior citizen Fares
+            <input type="radio" name="Trip" value="c">Doctor & Nurse Fares
+        </div>
+        <h1>Flights from New Delhi to Bengaluru</h1>
+    </div>
+    <div id="application">
+        <select id="filter">
+            <option value="">Flights Name</option>
+            <option value="Go First">Go First</option>
+            <option value="Akasa Air">Akasa Air</option>
+            <option value="IndiGo">IndiGo</option>
+            <option value="Vistara">Vistara</option>
+        </select>
+        <select id="Sort">
+            <option value="">Sort by Price</option>
+            <option value="High">High to Low</option>
+            <option value="Low">Low to High</option>
+        </select>
+    </div>
+    <div id="main">
+      <!-- Append Here -->
+    </div>
+</body>
+<script src="./flightsearch.js"></script>
+</html>

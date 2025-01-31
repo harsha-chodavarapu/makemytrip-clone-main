@@ -1,0 +1,45 @@
+#flight{
+    background-image: linear-gradient(to bottom,#051322,#15457c);
+}
+.cont{
+    display: flex;
+    margin-left: 100px;
+    color: white;
+}
+.cards{
+    width: 10%;
+}
+#low{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+#flight>h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#main{
+    width: 50%;
+    margin: auto;
+}
+#main>div{
+    display: flex;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 30px;
+}
+#main>div>div{
+    width: 20%;
+    margin-left: 20px;
+}
+#main a{
+    text-decoration: none;
+}
+#filter{
+    width: 10%;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    margin-left: 340px;
+}
